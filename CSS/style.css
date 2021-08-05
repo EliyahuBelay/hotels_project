@@ -1,0 +1,77 @@
+
+
+#destination{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+main ul{
+   
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    align-content:space-between;    
+}
+
+
+main ul li {
+    list-style-type: none;
+    height: 400px;
+}
+main ul .links img {
+    height: 230px;
+    width: 430px;
+}
+
+
+
+main ul .links img:hover{
+    filter: brightness(125%);
+}
+
+
+main ul li .absolute{
+    position: absolute;
+    margin-top: -230px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main ul li .absolute:hover{
+    filter: brightness(400%);
+    color: red;
+}
+
+main ul li .lands{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+main ul li p{
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+main ul li p .whatApp{
+    text-decoration: none;
+}
+
+#order{
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+#order .order{
+    font-size: 30px;
+}
+
+#order {
+    border:solid #fff;  
+}
+
+
+

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/e1/23/82/e12382fd22342aa29cee574c30dcf5bf.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+nav a{
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a:hover{
+    filter: brightness(125%);
+  
+}
+
+nav a img{
+    margin: 20px;
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+}
+nav a #videoLogo{
+    width: 50px;
+    height: 50px;
+}
+footer {
+    
+    left: 0;
+    bottom: 0;
+    height:30px ;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
